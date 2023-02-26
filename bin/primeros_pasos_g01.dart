@@ -117,9 +117,8 @@ void listas() {
   for (var x in impares) {
     print("Op2: $x");
   }
-  impares.forEach((element) {
-    print(element);
-  });
+
+impares.forEach(print);
 }
 
 String menuA(int op) {
